@@ -10,8 +10,7 @@ Build a safe and agile digital platform for builders to stand-up their work upon
 | platform
 | /platfɔːm/
 | *noun*
-| 1. 
-|    - a raised level surface on which people or things can stand
+| 1. a raised level surface on which people or things can stand
 
 Aims
 ----
