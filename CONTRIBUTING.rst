@@ -1,5 +1,5 @@
-Contributing
-============
+Contributing documentation
+==========================
 
 If you would like to contribute to this documentation you an edit pages directly on github, else branch or fork and send us a pull request. 
 

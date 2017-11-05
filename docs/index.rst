@@ -12,9 +12,12 @@ Contents:
    :maxdepth: 2
    :glob:
 
-   *
-
-
+   introduction
+   contributing
+   registration
+   dotnet
+   rshiny
+   authors
 
 Indices and tables
 ==================
