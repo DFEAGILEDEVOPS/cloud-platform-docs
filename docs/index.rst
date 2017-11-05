@@ -15,6 +15,7 @@ Contents:
    introduction
    contributing
    registration
+   platform
    dotnet
    rshiny
    authors
