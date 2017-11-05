@@ -1,7 +1,7 @@
 Contributing Documentation
 ==========================
 
-If you would like to contribute to this documentation you an edit pages directly on github, else branch or fork and send us a pull request. 
+If you would like to contribute to this documentation you can edit pages directly on github, else branch or fork and send us a pull request. 
 
 The documentation on `Read The Docs <http://kalbir-dfe-demo.readthedocs.io/en/latest/>`_ 
 
