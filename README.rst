@@ -25,4 +25,4 @@ There are more details on this page :doc:`/contributing`
 License
 -------
 
-This documentation is licensed under the Open Governmant License https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+This documentation is licensed under the Open Government Licence v3.0 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
