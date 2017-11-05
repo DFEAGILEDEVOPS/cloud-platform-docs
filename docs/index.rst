@@ -20,10 +20,4 @@ Contents:
    rshiny
    authors
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
