@@ -1,4 +1,4 @@
-Contributing documentation
+Contributing Documentation
 ==========================
 
 If you would like to contribute to this documentation you an edit pages directly on github, else branch or fork and send us a pull request. 
@@ -16,9 +16,9 @@ To test larger changes to the documentation you can build and run it with the py
 
 The docs should start at http://127.0.0.1:8000/
 
-House Rules
------------
+Documentation House Rules
+-------------------------
 
-* No email address domains. Save typing out education.gov.uk instead write simon.massey or jenny.researcher@digital
-* No links to the pilot platform. They are likely to change weekly and people should get the current set of links to use from the platform itself. 
+* No email address domains to avoid spam to DfE email servers. Save typing and write simon.massey or jenny.researcher@digital
+* No links to the pilot platform as they are likely to change weekly. People should get the correct current links from the platform itself. 
 
