@@ -1,5 +1,5 @@
 Introduction
-========
+============
 
 Talk about The Platform Thing
 
@@ -10,7 +10,7 @@ Features
 - Convenient
 
 Getting Setup
-------------
+-------------
 
 Email:
 
@@ -20,7 +20,7 @@ Email:
 at education gov uk. 
 
 The Code
-----------
+--------
 
 - Issue Tracker: github.com/$project/$project/issues
 - Source Code: github.com/$project/$project
