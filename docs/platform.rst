@@ -5,7 +5,7 @@ The Platform Pilot
 Vision
 ------
 
-Build a safe and agile digital *platform* for digital service builders to stand-up their work upon. 
+Build a safe, sustainable and agile digital *platform* for digital service builders to stand-up their work upon. 
 
 | platform
 | /platfɔːm/
@@ -24,7 +24,7 @@ Make it easy [*]_ for a .Net Core 2.0 or R Shiny project to get deployed on depa
 
 .. note::
     The platform is language, framework and cloud agnostic. The initial focus on .Net Core and R Shiny for the pilot 
-    reflects that we have civil servants using those technologies. 
+    reflects that where we have civil servants using those technologies. 
 
 Pilot Aims
 ----------
