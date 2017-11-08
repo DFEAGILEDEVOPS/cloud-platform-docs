@@ -21,7 +21,7 @@ The platform will supply a number of VSTS tasks (or compatible components) that 
 * Deploy configuration as to how the software runs on the plant.
 * Promote software and configuration between plant environments.
 
-In the strictest sence the platform is agnostic as to the software development live cycle orchastrated by VSTS. In practice the platform team will supply templates as to how VSTS builds software that is to be released for testing. Platform templates and automation combined with role based access controls will enforce software standards. Active Directory will be used for authentication and group membership to enforce access controls across the platform. 
+In the strictest sence the platform is agnostic as to the software development live cycle orchastrated by VSTS. In practice the platform team will supply templates as to how VSTS builds software that is to be released for testing. Platform templates and automation combined with role based access controls will enforce software standards. Active Directory will be used for authentication and group membership to provide access controls across the platform. 
 
 .. note::
     You can learn more about Visual Studio Team Services from the `Microsoft website <https://azure.microsoft.com/en-gb/services/visual-studio-team-services/>`_ and the `Build and Release <https://docs.microsoft.com/pdfstore/en-us/MSDN.team-services/live/build-release.pdf>`_ documentation. 
@@ -43,10 +43,10 @@ Kubernetes is an open-source platform designed to automate deploying, scaling, a
 
 Application containers are designed to package and run a single software component referred to as a software service. This supports and encourages the best practices of building applications out of components that can be individually upgraded or scaled. Kubernetes ensures that enough software services are running to support user demand. It will automatically compensate for either hardware or software failures by launching new containers on avialable infrastructure. 
 
-OpenShift automates the creation of application containers from software releases. It then enables the rapid and easy deployment of them onto Kubernetes using templates and automation. Templates can capture best practices that are then easily shared between teams. This combined with automation frees up teams to focus on their end user needs freed from routine and repetative tasks. At the same time the plant can focus on operational concerns such as high availablity.  
+OpenShift automates the creation of application containers from software releases. It then enables the rapid and easy deployment of them onto Kubernetes using templates and automation. Templates can capture best practices that are then easily shared between teams. This combined with automation allows teams to focus on their end user needs freed from routine and repetative tasks. At the same time the plant can focus on operational concerns such as high availablity.  
 
 .. note::
-    You can learn more about OpenShift from a developer and devops perspectives from two free books `OpenShift for Developers: A Guild for Impatient Beginners <https://www.openshift.com/promotions/for-developers.html>`_ and `DevOps with OpenShift: Cloud Deployments Made Easy <https://www.openshift.com/promotions/devops-with-openshift.html>`_
+    You can learn more about OpenShift from a developer and devops perspective from two free books `OpenShift for Developers: A Guild for Impatient Beginners <https://www.openshift.com/promotions/for-developers.html>`_ and `DevOps with OpenShift: Cloud Deployments Made Easy <https://www.openshift.com/promotions/devops-with-openshift.html>`_
 
 .. _Openshift: https://github.com/openshift/origin
 .. _Kubernetes1: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
