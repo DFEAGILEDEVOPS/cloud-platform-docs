@@ -21,7 +21,7 @@ The platform will supply a number of VSTS tasks (or compatible components) that 
 * Deploy configuration as to how the software runs on the plant.
 * Promote software and configuration between plant environments.
 
-In the strictest sence the platform is agnostic as to the software development live cycle orchastrated by VSTS. In practice the platform team will supply templates as to how VSTS builds software that is to be released for testing. Platform templates and automation combined with role based access controls can then both define and enforce software standards. Active Directory will be used for authentication and group membership to support access controls across the platform. 
+In the strictest sence the platform is agnostic as to the software development live cycle orchastrated by VSTS. In practice the platform team will supply templates as to how VSTS builds software that is to be released for testing. Platform templates and automation combined with role based access controls will enforce software standards. Active Directory will be used for authentication and group membership to enforce access controls across the platform. 
 
 Openshift Container Platform
 ----------------------------
@@ -34,13 +34,13 @@ Openshift Container Platform (OCP) is a commercially support distribution of the
 
 Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. Application containers are a solution to the problem of how to get software to run reliably when moved from one computing environment to another: 
 
-    Put simply, a container consists of an entire runtime environment: an application, plus all its dependencies, libraries and other binaries, and configuration files needed to run it, bundled into one package. By containerizing the application platform and its dependencies, differences in OS distributions and underlying infrastructure are abstracted away.
+    Put simply, a container consists of an entire runtime environment: an application, plus all its dependencies, libraries and other binaries, and configuration files needed to run it, bundled into one package. By containerizing the application [services] and [their] dependencies, differences in OS distributions and underlying infrastructure are abstracted away.
 
     -- Cio_
 
-Application containers are designed to package and run a single software component referred to as software services. This supports and encourages the best practices of building applications out of components that can be individually upgraded or scaled. Kubernetes ensures that enough software services are running to support user demand and will automatically compensate for either hardware or software failures. 
+Application containers are designed to package and run a single software component referred to as a software service. This supports and encourages the best practices of building applications out of components that can be individually upgraded or scaled. Kubernetes ensures that enough software services are running to support user demand. It will automatically compensate for either hardware or software failures by launching new containers on avialable infrastructure. 
 
-OpenShift automates the creation of application containers from software releases. It then enables rapid and easy deployment through automation and templates. The templates and automation can be shared between teams. This frees up a team to focus on the end user needs. At the same time automation and templates can be aligned to best practice. The underlying plant can focus on operational concerns such as high availablity and is agnostic to the specifics of the software services running within the platform.  
+OpenShift automates the creation of application containers from software releases. It then enables the rapid and easy deployment of them onto Kubernetes using templates and automation. Templates can capture best practices that are then easily shared between teams. This combined with automation frees up teams to focus on their end user needs freed from routine and repetative tasks. At the same time the plant can focus on operational concerns such as high availablity.  
 
 .. _Openshift: https://github.com/openshift/origin
 .. _Kubernetes1: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
