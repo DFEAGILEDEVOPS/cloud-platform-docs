@@ -36,5 +36,5 @@ and running a digital service alpha that a team can set-up in less than one hour
 
     <hr/>
 
-.. [*] Easy = Automated. takes < 1 h
+.. [*] Easy = Automated and takes < 1 h
 
