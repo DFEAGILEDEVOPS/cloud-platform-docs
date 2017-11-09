@@ -2,13 +2,13 @@
 The Platform
 ============
 
-This chapter provides a high-level overview of the platform design from a user expective. The primary users of the platform are intended to be teams building or maintaining digital services with a self-service devops user experience. During the pilot, the ground truth of the design is the configuration that builds the OCP plant and templates which deploy sample code from VSTS. 
+This chapter provides a high-level overview of the platform from a user expective. The primary users of the platform are intended to be teams building or maintaining digital services with a self-service devops user experience. During the pilot, the ground truth of the design is the configuration that builds the OCP plant and templates which deploy sample code from VSTS. 
 
 At this point of the project, this design chapter is quite heavy on principles. This allows people who are trying understand the platform to understand the self-service operating model the platform is aiming to enable to enable. Being explicit about the design principles allows people to challenge the model and whether the approach and fits within the wider organization. It also allows pilot users of the platform to point out where the current prototypes or design deviates from the principles. 
 
 
-Design Principles
------------------
+Principles
+----------
 
 The primary design principles of the platform are: 
 

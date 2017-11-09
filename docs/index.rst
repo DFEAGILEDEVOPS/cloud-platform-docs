@@ -14,10 +14,9 @@ Contents:
 
    introduction
    contributing
-   registration
    platform_pilot
    platform_technologies
-   platform_design
+   platform
    dotnet
    rshiny
    authors
