@@ -17,6 +17,7 @@ Contents:
    registration
    platform_pilot
    platform_technologies
+   platform_design
    dotnet
    rshiny
    authors
