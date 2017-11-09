@@ -6,17 +6,17 @@ This chapter provides a high-level overview of the platform from a user expectiv
 
 At this point of the project, this design chapter is quite heavy on principles. This allows people who are trying understand the platform to understand the self-service operating model the platform is aiming to enable to enable. Being explicit about the design principles allows people to challenge the model and whether the approach and fits within the wider organization. It also allows pilot users of the platform to point out where the current prototypes or design deviates from the principles. 
 
-
 Principles
 ----------
 
 The primary design principles of the platform are: 
 
 * Automation, standardization and isolation
-* Control only the things that matter
+* Be open and agnostic
 * Treat infrastructure as code
 * State as managed services
 * Scale down as well as up
+
 
 These principles and examples of how they affect the platform are outlined in the following sections. 
 
@@ -41,4 +41,27 @@ Standardisation compliments automation by making it possible for new teams to us
     
 Isolation compliments automation in that the consequence of erroneous automation can be minimised (e.g. you clicked the wrong button). Isolation removes the risk allowing an empowered team member to make the decisions to proceed. Often people external to the team are left "in the loop" to compensate for high risks of human error. A remote risk of a very bad outcome is used to justify the substantial costs of waiting for a meeting to bless a decision. The effect of human circuit breakers has a disproportionate when the decision is to be made by a consultatory committee rather than an empowered team member. Good isolation helps mitigate long tail risks allowing teams to avoid the disproportionate costs of decision meeting delays. Decisions should be made at the most appropriate level and good isolation moves the appropriate level into the delivery team. 
 
+Be Open and Agnostic
+--------------------
+
+    Be open and agnostic.
+
+    -- Mark O'Neill
+
+A platform intended to support agile delivery needs to be flexible and adaptable. This seems counter to the principle that a platform should support standardization and automation. This can be reconciled by being open to extention but closed to modification. This means that the platform should be opinionated in the matters that achieve the vision of being safe and agile. Yet the platform should be flexible to extention in layers that don't affect safety. How code, data and people gets into an environment primarily affects safety. The platform will therefore be opinionated at its boundaries but flexible within the layers that a team can safely control. 
+
+Treat Infrastructure as Code
+----------------------------
+
+TBD
+
+State as managed services
+-------------------------
+
+TBD
+
+Scale down as well as up
+------------------------
+
+TBD
 
