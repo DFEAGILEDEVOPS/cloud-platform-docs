@@ -19,6 +19,17 @@ These principles and examples of how they affect the platform are outlined in `A
 
 .. _`Appendix 1`: ./appendix1.html
 
+Getting Setup
+-------------
+
+The following video is a demo of the getting setup flow as at Sprint 2. 
+
+.. raw:: html
+
+    <iframe src="https://player.vimeo.com/video/242357722" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
 Design
 ------
 
