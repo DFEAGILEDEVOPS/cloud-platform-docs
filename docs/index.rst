@@ -20,5 +20,6 @@ Contents:
    dotnet
    rshiny
    authors
+   appendix1.rst
 
 
