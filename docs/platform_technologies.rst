@@ -35,11 +35,15 @@ Openshift Container Platform (OCP) is a commercially support distribution of the
 
     -- Openshift_ 
 
-Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. Application containers are a solution to the problem of how to get software to run reliably when moved from one computing environment to another: 
+OpenShift is built on top of Kubernetes which is an open-source platform designed to automate deploying, scaling, and operating application containers. Application containers are a solution to the problem of how to get software to run reliably when moved from one computing environment to another: 
 
     Put simply, a container consists of an entire runtime environment: an application, plus all its dependencies, libraries and other binaries, and configuration files needed to run it, bundled into one package. By containerizing the application [services] and [their] dependencies, differences in OS distributions and underlying infrastructure are abstracted away.
 
     -- Cio_
+
+
+.. note::
+    You can read more about how OpenShift relates to Kubernates at this `levvel.io blog post <https://github.com/DFEAGILEDEVOPS/cloud-platform-docs/blob/19ebe7241f7b20857e81c4a5bfb1308951b0ae79/levvelblog.pdf>`_ reproduced with permission from Levvel, LLC (`www.levvel.io <http://www.levvel.io>`_)
 
 Application containers are designed to package and run a single software component referred to as a software service. This supports and encourages the best practices of building applications out of components that can be individually upgraded or scaled. Kubernetes ensures that enough software services are running to support user demand. It will automatically compensate for either hardware or software failures by launching new containers on avialable infrastructure. 
 
