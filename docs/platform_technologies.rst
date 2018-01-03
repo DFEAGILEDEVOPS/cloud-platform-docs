@@ -13,7 +13,7 @@ At a high level VSTS provides platform services to build and release software wh
 Visual Studio Team Services
 ---------------------------
 
-Visual Studio Team Services (VSTS) is a software development service. The platform integrates with the build and release features of VSTS. This allows developers to deploy software into the plant in an auditable and repeatable manner using a defined software development lifecycle. 
+Visual Studio Team Services (VSTS) is a software development service that has good integtations with other services such as GitHub. The platform integrates with the build and release features of VSTS. This allows developers to deploy software into the plant in an auditable and repeatable manner using a defined software development lifecycle. 
 
 The platform will supply a number of VSTS tasks (or compatible components) that will: 
 

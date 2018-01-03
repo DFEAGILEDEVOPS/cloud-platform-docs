@@ -14,12 +14,12 @@ Contents:
 
    introduction
    contributing
-   platform_pilot
    platform_technologies
    platform
    dotnet
    rshiny
    authors
    appendix1.rst
+   appendix2.rst
 
 

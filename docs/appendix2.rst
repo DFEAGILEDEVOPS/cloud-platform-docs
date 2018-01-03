@@ -1,6 +1,12 @@
 ==================
-The Platform Pilot
+Appendix 2: The Platform Pilot
 ==================
+
+Introduction
+------------
+
+The platform pilot ran for 12 weeks through to 23rd December 2017. Below is the pilot documentation page. 
+
 
 Vision
 ------

@@ -8,9 +8,9 @@ ASP.NET Core
 
 .. _Microsoft: https://docs.microsoft.com/en-us/aspnet/core/
 
-In order to deploy to DfE Azure all code must be built into releases by Visual Studio Online (VSO). VSO then hold the system credentials at the release artifacts to OpenShift running on DfE Azure. Release can then be controlled by the release workflow and approvals functionality of VSO. The GDS service manual `encourage coding in the open <https://www.gov.uk/service-manual/service-standard/make-all-new-source-code-open>`_. 
+In order to deploy to DfE Azure all code must be built into releases by Visual Studio Team Services (VSTS). VSTS then hold the system credentials at the release artifacts to OpenShift running on DfE Azure. Release can then be controlled by the release workflow and approvals functionality of VSTS. The GDS service manual `encourage coding in the open <https://www.gov.uk/service-manual/service-standard/make-all-new-source-code-open>`_. 
 
-Typically government digital teams code against public repositories hosted on GitHub. VSO supports building and releasing code that is hosted on GitHub. This allows a team to host their code on GitHub and build official artifacts on VSO that are deploy onto DfE hosted OpenShift using VSO controlled release workflows.
+Typically government digital teams code against public repositories hosted on GitHub. VSTS supports building and releasing code that is hosted on GitHub. This allows a team to host their code on GitHub and build official artifacts on VSTS that are deploy onto DfE hosted OpenShift using VSTS controlled release workflows.
 
 The platform uses the commercial distribution of OpenShift that has long term support and receives security updates. This includes security updates for the images and runtimes that arte supported by commercial openshift including ASP.NET Core, Node and Ruby. This means that RedHat supplies timely security fixes for both the .Net SDK and the container image that has the system dependencies needed to run the SDK on Docker. The patch history for theg ``dotnet-20-rhel7`` image can be seen `on the readhat portal <https://access.redhat.com/containers/?tab=tags#/registry.access.redhat.com/dotnet/dotnet-20-rhel7>`_. 
 

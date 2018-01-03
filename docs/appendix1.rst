@@ -1,5 +1,5 @@
 ==========
-Appendix 1
+Appendix 1: Platform Principes
 ==========
 
 This chapter outlines some of the platform principes and how they affect the design or implimentation of the platform. 
