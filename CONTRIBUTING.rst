@@ -13,7 +13,7 @@ To test larger changes to the documentation you can build and run it with the py
     pip install --upgrade pip
     pip install sphinx sphinx-autobuild
     pip install sphinx_rtd_theme
-    make clean ; sphinx-autobuild . _build/html
+    cd docs; make clean ; sphinx-autobuild . _build/html
 
 The docs should start at http://127.0.0.1:8000/
 
