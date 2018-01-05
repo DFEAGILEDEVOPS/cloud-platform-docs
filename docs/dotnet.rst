@@ -2,6 +2,8 @@
 ASP.NET Core
 =============
 
+ASP.NET Core and its supporting technologies such as C# are the preferred technology for new digital service builds. 
+
     ASP.NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications.
 
     -- Microsoft_ 
@@ -11,9 +13,9 @@ ASP.NET Core
 Visual Studio Team Services
 ---------------------------
 
-In order to deploy to DfE Azure  code must be built into releases by Visual Studio Team Services (VSTS). VSTS then holds the system credentials to release the built artifacts into OpenShift running on DfE Azure. Release can then be controlled by the release workflow and approvals functionality of VSTS. The GDS service manual `encourage coding in the open <https://www.gov.uk/service-manual/service-standard/make-all-new-source-code-open>`_. 
+In order to deploy to DfE Azure  code must be built into releases by Visual Studio Team Services (VSTS). VSTS then holds the system credentials to release the built artifacts into OpenShift running on DfE Azure. Release can then be controlled by the release workflow and approvals functionality of VSTS. 
 
-Typically government digital teams code against public repositories hosted on GitHub. VSTS supports building and releasing code that is hosted on GitHub. This allows a team to host their code on GitHub and build official artifacts on VSTS that are deploy onto DfE hosted OpenShift using VSTS release workflows. You can read more about how the pilot integrates with VSTS `here </platform_technologies.html#visual-studio-team-services>`_. 
+The GDS service manual `encourage coding in the open <https://www.gov.uk/service-manual/service-standard/make-all-new-source-code-open>`_. Typically government digital teams code against public repositories hosted on GitHub. VSTS supports building and releasing code that is hosted on GitHub. The platform allows a team to host their code on GitHub, build official artifacts on VSTS, and deploy onto DfE Azure hosted OpenShift, using VSTS release workflows. You can read more about how the pilot integrates with VSTS `here </platform.html#visual-studio-team-services>`_. 
 
 Openshift Container Platform
 ----------------------------

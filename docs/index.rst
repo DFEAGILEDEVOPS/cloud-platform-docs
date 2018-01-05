@@ -14,7 +14,6 @@ Contents:
 
    introduction
    contributing
-   platform_technologies
    platform
    dotnet
    rshiny

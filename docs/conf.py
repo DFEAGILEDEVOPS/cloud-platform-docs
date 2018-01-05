@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Agile Continuous Delivery Platform Pilot'
+project = u'DfF Digital Platform'
 copyright = u'2014, Read the Docs'
 
 # The version info for the project you're documenting, acts as replacement for
